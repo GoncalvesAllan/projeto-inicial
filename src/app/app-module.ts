@@ -3,10 +3,16 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing-module';
 import { App } from './app';
+import { Card } from './card/card';
+import { CardRoxo } from './card-roxo/card-roxo';
+import { CardButton } from './card-button/card-button';
 
 @NgModule({
   declarations: [
-    App
+    App,
+    Card,
+    CardRoxo,
+    CardButton
   ],
   imports: [
     BrowserModule,
@@ -17,4 +23,6 @@ import { App } from './app';
   ],
   bootstrap: [App]
 })
-export class AppModule { }
+export class AppModule { 
+  
+}
