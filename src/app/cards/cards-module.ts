@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { Card } from './card/card';
 import { CardRoxo } from './card-roxo/card-roxo';
 import { CardButton } from './card-button/card-button';
+import { MatSliderModule } from '@angular/material/slider';
 
 @NgModule({
   declarations: [
@@ -11,7 +12,8 @@ import { CardButton } from './card-button/card-button';
     CardButton
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    MatSliderModule
   ],
   exports: [
     Card,
